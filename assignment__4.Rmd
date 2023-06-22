@@ -351,6 +351,7 @@ list(model1, model2, model3, model4) |>
 
 
 **Question 3.6**: According to this analysis, what is the main driver of economic growth? Why?
+The variable tradeshare has a coefficient of 2.233 in model 3, indicating that an increase in trade share is associated with a significant positive effect on economic growth. This suggests that countries with higher levels of international trade tend to experience higher economic growth rates.
 
 
 **Question 3.7**: In the code chunk below, edit the table such that the cells (including standard errors) corresponding to the variable `treat` have a red background and white text. Make sure to load the `kableExtra` library beforehand.
@@ -366,7 +367,10 @@ list(model1, model2, model3, model4) |>
 **Question 3.8**: Write a piece of code that exports this table (without the formatting) to a Word document. 
 
 ```{r}
-export_table("model_summary.docx", table_with_formatting)
+library(kableExtra)
+list(model1, model2, model3, model4) |>
+  modelsummary(stars=T, gof_map = c("nobs", "r.squared"), 
+               output = 'table.docx')
 ```
 
 ## The End
