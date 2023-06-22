@@ -5,7 +5,7 @@ title: |
   | Introduction to Applied Data Science
   | 2022-2023
 author: |
-  | Your Name
+  | Victoria Choumeiko
   | v.choumeikol@students.uu.nl
   | http://www.github.com/yourgithubname
 date: April 2023
@@ -370,4 +370,4 @@ export_table("model_summary.docx", table_with_formatting)
 ```
 
 ## The End
->>>>>>> ed058129779a55049d2f2170c9ba7f61ecf792a4
+
