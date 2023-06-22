@@ -96,7 +96,7 @@ data |>
 
 **Designated place**: type one or two sentences describing this table of a fellow student below. For example, comment on the mean and median growth of both groups. Then stage, commit and push it to their github repository. 
 
-Very good table
+The mean growth in the revolutionsmore column is higher when compared to the revolution0 column. However, from the two columns it is clear that the median growth is lower when revolution is greater than 0.
 
 ### Part 3: Make a table summarizing reressions using modelsummary and kable
 
